@@ -17,12 +17,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
-        <maven.war.plugin.version>3.3.2</maven.war.plugin.version>
     </properties>
 
     <dependencies>
-        <!-- Add your dependencies here -->
         <!-- Example: Servlet API -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
@@ -36,6 +33,4 @@
         <plugins>
             <!-- Compiler Plugin -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.plugin.version}</version
+                <group
