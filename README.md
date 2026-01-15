@@ -10,7 +10,7 @@ $mvnw clean test
 $mvnw clean package
 ```
 
-#  How to run web server with Apache Tomcat ?
+#  How to run web server with Apache Tomcat?
 
 ```
 $mvnw tomcat7:run
