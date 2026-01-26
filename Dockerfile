@@ -1,4 +1,4 @@
-FROM almalinux
+FROM ubuntu
 
 RUN  yum update -y &&  yum install java-11-openjdk -y &&  yum install git -y &&  yum install maven -y
 
